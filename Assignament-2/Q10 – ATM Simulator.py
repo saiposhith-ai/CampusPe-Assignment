@@ -1,11 +1,9 @@
-# Enhanced ATM Simulator with Bonus Features
 
 balance = 10000
 correct_pin = "1234"
 transaction_history = []
 transaction_count = 0
 
-# PIN Authentication (3 Attempts)
 attempts = 3
 while attempts > 0:
     entered_pin = input("Enter your 4-digit PIN: ")
@@ -30,11 +28,11 @@ else:
 
         choice = input("Enter your choice (1-5): ")
 
-        # Check Balance
+
         if choice == "1":
             print(f"Current Balance: ₹{balance:.2f}")
 
-        # Deposit
+
         elif choice == "2":
             try:
                 amount = float(input("Enter amount to deposit: ₹"))
@@ -49,7 +47,7 @@ else:
             except ValueError:
                 print("Invalid amount entered.")
 
-        # Withdraw
+
         elif choice == "3":
             try:
                 amount = float(input("Enter amount to withdraw: ₹"))
@@ -68,7 +66,7 @@ else:
             except ValueError:
                 print("Invalid amount entered.")
 
-        # Mini Statement
+       
         elif choice == "4":
             print("\n=== MINI STATEMENT ===")
             if transaction_count == 0:
@@ -79,7 +77,7 @@ else:
                 print(f"\nTotal Transactions: {transaction_count}")
             print(f"Available Balance: ₹{balance:.2f}")
 
-        # Exit
+    
         elif choice == "5":
             print("Thank you for using the ATM.")
             break

@@ -1,4 +1,3 @@
-# Q14 – Factorial Calculator
 
 try:
     n = int(input("Enter a number: "))

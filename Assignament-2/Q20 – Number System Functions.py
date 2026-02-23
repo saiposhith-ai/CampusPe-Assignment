@@ -1,6 +1,4 @@
-# Q20 – Number System Functions
 
-# 1. Factorial
 def factorial(n):
     if n < 0:
         return "Not defined for negative numbers"
@@ -10,7 +8,7 @@ def factorial(n):
     return result
 
 
-# 2. Prime Check
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -24,7 +22,6 @@ def is_prime(n):
     return True
 
 
-# 3. Fibonacci (nth number)
 def fibonacci(n):
     if n <= 0:
         return "Enter positive integer"
@@ -34,19 +31,19 @@ def fibonacci(n):
     return a
 
 
-# 4. Sum of digits
+
 def sum_of_digits(n):
     return sum(int(digit) for digit in str(abs(n)))
 
 
-# 5. Reverse number
+
 def reverse_number(n):
     sign = -1 if n < 0 else 1
     reversed_num = int(str(abs(n))[::-1])
     return sign * reversed_num
 
 
-# 6. Armstrong number
+
 def is_armstrong(n):
     digits = str(abs(n))
     power = len(digits)
@@ -54,7 +51,7 @@ def is_armstrong(n):
     return total == abs(n)
 
 
-# 7. GCD (Euclidean Algorithm)
+
 def gcd(a, b):
     while b:
         a, b = b, a % b
@@ -66,7 +63,7 @@ def lcm(a, b):
     return abs(a * b) // gcd(a, b)
 
 
-# 9. Perfect Number
+
 def is_perfect_number(n):
     if n <= 1:
         return False
@@ -77,7 +74,7 @@ def is_perfect_number(n):
     return total == n
 
 
-# 10. Menu System
+
 def math_menu():
     while True:
         print("\n=== NUMBER SYSTEM MENU ===")
@@ -144,5 +141,4 @@ def math_menu():
             print("Invalid input! Please enter integers only.")
 
 
-# Run the menu
 math_menu()

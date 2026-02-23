@@ -1,4 +1,3 @@
-# Q9 – Ticket Pricing System
 
 try:
     age = int(input("Enter age: "))
@@ -10,7 +9,7 @@ try:
     elif age < 0:
         print("Age cannot be negative.")
     else:
-        # Age-based pricing
+
         if age < 3:
             base_price = 0
             category = "Free"
@@ -24,7 +23,6 @@ try:
             base_price = 200
             category = "Senior"
 
-        # Day-based discount
         weekend_days = ["friday", "saturday", "sunday"]
 
         if day in weekend_days:
@@ -36,7 +34,7 @@ try:
         final_price_per_ticket = base_price - discount_amount
         total_amount = final_price_per_ticket * tickets
 
-        # Output
+
         print("\n=== TICKET BILL ===")
         print(f"Category: {category}")
         print(f"Base Price per Ticket: ₹{base_price:.2f}")

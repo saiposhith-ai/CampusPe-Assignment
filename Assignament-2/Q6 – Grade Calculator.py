@@ -1,9 +1,9 @@
-# Q6 – Grade Calculator
+
 
 try:
     marks = []
 
-    # Taking input for 5 subjects
+
     for i in range(1, 6):
         mark = float(input(f"Enter marks for Subject {i}: "))
 
@@ -16,7 +16,7 @@ try:
     total = sum(marks)
     percentage = (total / 500) * 100
 
-    # Grade Calculation
+
     if percentage >= 90:
         grade = "A+ (Outstanding)"
     elif percentage >= 80:
@@ -30,13 +30,12 @@ try:
     else:
         grade = "F (Fail)"
 
-    # Pass/Fail condition
+
     if all(mark >= 40 for mark in marks):
         result = "PASS"
     else:
         result = "FAIL"
 
-    # Output
     print("\n=== RESULT SUMMARY ===")
     for i in range(5):
         print(f"Subject {i+1}: {marks[i]}")

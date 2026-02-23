@@ -1,4 +1,3 @@
-# Q15 – Prime Number Checker
 
 def is_prime(n):
     if n <= 1:
@@ -15,7 +14,7 @@ def is_prime(n):
 
 
 try:
-    # Part 1 – Single Number
+
     num = int(input("Enter a number: "))
 
     if is_prime(num):
@@ -23,7 +22,7 @@ try:
     else:
         print(f"{num} is NOT a prime number.")
 
-    # Part 2 – Range Check
+
     start = int(input("\nEnter start range: "))
     end = int(input("Enter end range: "))
 

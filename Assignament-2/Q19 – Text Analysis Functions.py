@@ -1,4 +1,3 @@
-# Q19 – Text Analysis Functions
 
 def count_words(text):
     return len(text.split())
@@ -68,7 +67,7 @@ def analyze_text(text):
         print(f"{word}: {count}")
 
 
-# Main Execution
+
 try:
     user_input = input("Enter text: ").strip()
 

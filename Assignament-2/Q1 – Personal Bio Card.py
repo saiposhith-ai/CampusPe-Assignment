@@ -1,13 +1,10 @@
-# Q1 – Personal Bio Card
 
-# Variables
 name = "John Doe"
 age = 20
 course = "Python Programming"
 college = "ABC University"
 email = "john@example.com"
 
-# Box width
 width = 50
 
 print("┌" + "─" * (width - 2) + "┐")

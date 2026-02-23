@@ -1,8 +1,7 @@
-# Q16 – Number Guessing Game
 
 import random
 
-best_score = None  # Track best attempts
+best_score = None
 
 while True:
     secret_number = random.randint(1, 100)
@@ -25,7 +24,7 @@ while True:
             if guess == secret_number:
                 print(f"🎉 Congratulations! You guessed it in {attempts_used} attempts.")
 
-                # Update best score
+          
                 if best_score is None or attempts_used < best_score:
                     best_score = attempts_used
                     print("🏆 New Best Score!")
@@ -38,7 +37,6 @@ while True:
             else:
                 print("Too Low!")
 
-            # Hint feature (within 5)
             if abs(guess - secret_number) <= 5:
                 print("🔥 Very Close!")
 

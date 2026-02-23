@@ -1,4 +1,3 @@
-# Bonus – Statistical Analysis Version
 
 import statistics
 

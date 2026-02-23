@@ -1,4 +1,4 @@
-# Q17 – Palindrome Checker
+
 
 try:
     user_input = input("Enter word/number: ").strip()
@@ -6,7 +6,7 @@ try:
     if not user_input:
         print("Input cannot be empty.")
     else:
-        # Convert to string (handles numbers too)
+  
         original = user_input
         cleaned = user_input.lower()
 

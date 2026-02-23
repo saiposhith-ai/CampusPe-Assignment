@@ -1,4 +1,3 @@
-# Q12 – Multiplication Table Generator (Bonus Version)
 
 try:
     while True:
@@ -9,7 +8,6 @@ try:
 
         choice = input("Enter your choice (1-3): ")
 
-        # Option 1 – Single Number Table
         if choice == "1":
             number = int(input("Enter number: "))
             range_end = int(input("Enter range (end): "))
@@ -21,24 +19,22 @@ try:
                 for i in range(1, range_end + 1):
                     print(f"{number} x {i} = {number * i}")
 
-        # Option 2 – Full 1–10 Grid
+
         elif choice == "2":
             print("\n=== FULL MULTIPLICATION TABLE (1–10) ===\n")
 
-            # Header row
+      
             print("     ", end="")
             for i in range(1, 11):
                 print(f"{i:4}", end="")
             print("\n" + "-" * 50)
 
-            # Table body
             for i in range(1, 11):
                 print(f"{i:2} |", end=" ")
                 for j in range(1, 11):
                     print(f"{i*j:4}", end="")
                 print()
 
-        # Exit
         elif choice == "3":
             print("Exiting program...")
             break

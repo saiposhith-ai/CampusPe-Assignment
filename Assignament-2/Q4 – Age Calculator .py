@@ -1,4 +1,3 @@
-# Bonus – Exact Age Calculation
 
 from datetime import date
 

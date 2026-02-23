@@ -1,4 +1,4 @@
-# Q8 – Leap Year Checker
+
 
 try:
     year = int(input("Enter a year: "))

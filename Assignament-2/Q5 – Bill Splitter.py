@@ -1,7 +1,7 @@
-# Q5 – Bill Splitter
+
 
 try:
-    # Inputs
+
     subtotal = float(input("Enter total bill amount: ₹"))
     people = int(input("Number of people: "))
     tax_percent = float(input("Tax percentage: "))
@@ -12,14 +12,13 @@ try:
     elif subtotal < 0:
         print("Bill amount cannot be negative.")
     else:
-        # Calculations
+
         tax_amount = subtotal * tax_percent / 100
         after_tax = subtotal + tax_amount
         tip_amount = after_tax * tip_percent / 100
         total = after_tax + tip_amount
         per_person = total / people
 
-        # Output
         print("\n=== BILL BREAKDOWN ===")
         print(f"Subtotal: ₹{subtotal:.2f}")
         print(f"Tax ({tax_percent}%): ₹{tax_amount:.2f}")
