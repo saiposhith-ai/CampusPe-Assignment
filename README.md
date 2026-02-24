@@ -1,4 +1,4 @@
-Name: Sai Poshith R USN: 1JB22AI048 Course: Gen AI Android App Develpment Assignemnt : 3
+Name: Sai Poshith R USN: 1JB22AI048 Course: Gen AI Android App Develpment Assignemnt : 3 Questions attempted: 20
 
 📌 Project Overview
 
