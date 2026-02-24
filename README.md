@@ -1,3 +1,5 @@
+Name: Sai Poshith R USN: 1JB22AI048 Course: Gen AI Android App Develpment Assignemnt : 3
+
 📌 Project Overview
 
 This repository contains solutions for the CampusPe Python Basics Assignment, covering foundational to intermediate Python programming concepts.
